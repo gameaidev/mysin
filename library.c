@@ -6,7 +6,7 @@
 
 static int l_sin (lua_State *L);
 
-int luaopen_simplefunc (lua_State *L) {
+int luaopen_mysin (lua_State *L) {
 
     lua_pushcfunction(L, l_sin);
     lua_setglobal(L, "mysin");
