@@ -1,1 +1,1 @@
-# mysin
+# mysin - my sin function
